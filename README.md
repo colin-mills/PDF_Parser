@@ -5,7 +5,7 @@ Uses a python script to parse PDF files from your desktop on Macs.
 
 ## Prerequisites
 
-**Requires Python 3.7.**
+**Requires Python 3.7**
 
 ## Instalation 
 
