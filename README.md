@@ -16,7 +16,7 @@ pip install PyPDF2
 ```
 ## Usage
 
-3. Execute the "PDF_parser.py" program:
+Execute the "PDF_parser.py" program:
 ```
 python app/PDF_parser.py
 ```
