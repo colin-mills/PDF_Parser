@@ -23,4 +23,4 @@ if os.path.isfile(pdfName):
         print(page_content)
 
 else:
-    print("Sorry" + pdfPath + "doesn't appear to be a correct file path. \nPlease correct and try again.")
+    print("Sorry \"" + pdfPath + "\" doesn't appear to be a correct file path. \nPlease correct and try again.")

@@ -1,6 +1,8 @@
 # PDF_Parser
 Uses a python script to parse PDF files from your desktop on Macs.
 
+**NOTE: Generally only works with created PDF's**
+
 ## Prerequisites
 
 **Requires Python 3.7.**
