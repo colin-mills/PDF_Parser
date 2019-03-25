@@ -5,11 +5,13 @@ import os
 #pdfName = '/Users/colinmills/Desktop/Red2.pdf'
 #takes in file name as input 
 username = input("What is your username on your laptop: ")
-pdfName = input("Please enter the PDF file name your desktop that you would like to be read: ") # a relative filepath
+pdfName = input("Please enter the PDF file name your desktop that you would like to be read \n example \"sample.pdf\": ") # a relative filepath
 
 pdfPath = "/Users/" + username + "/Desktop/" +pdfName
 
-if os.path.isfile(pdfName):
+foundFile = os.path.isfile(pdfPath)
+
+if foundFile:
 
     read_pdf = PyPDF2.PdfFileReader(pdfPath)
 
