@@ -20,9 +20,11 @@ if foundFile:
     page_num = int(pages)
 
     for page in range(page_num):
+        print(page)
         page = read_pdf.getPage(page)
         page_content = page.extractText()
         print(page_content)
+        
 
 else:
     print("Sorry \"" + pdfPath + "\" doesn't appear to be a correct file path. \nPlease correct and try again.")
